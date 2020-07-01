@@ -1,5 +1,10 @@
-require("./02-saisie-user/main");
-require("./03 type number/main");
-require("./04-type-booleen-condition/main");
-require("exercice/exo01")
-require("exercice/exo1.6")
+//require("./02-saisie-user/main");
+//require("./03 type number/main");
+//require("./04-type-booleen-condition/main");
+//require("exercice/exo01");
+//require("exercice/exo1.6");
+//require("exercice/exo1.7");
+//require("./05-tableaux/main");
+//require("07- object/main");
+//require("correctionsDesExercices/exoPartie03");
+require(`06 timeout interval/main.js`);

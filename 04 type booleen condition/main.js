@@ -35,3 +35,39 @@ condition = "yfhfg"
 if (condition){
     console.log("condition vérifiée !!!");
 }
+
+
+//OPERATEUR TERNEAIRE
+message = (age >=18 ? "vous etes majeur(s) " ; "vous etes mineur(s)") ;
+alert(`message - - > ${message}`);
+
+//switch
+
+let numeroDuJour =Number(prompt(message "saisi le numero du jour de la semaine "));
+let message ;
+switch (numeroDuJour) {
+    case 1:
+        message ="Lundi";
+    break;
+    case 2:
+        message = "Mardi";
+    break;
+    case 3:
+        message = "Mercredi";
+        break;
+    case 4:
+        message = "Jeudi";
+        break;
+    case 5:
+        message = "Vendredi";
+        break;
+    case 6:
+        message = "Samedi";
+        break;
+    case 7:
+        message = "Dimanche";
+    default:
+
+        message = "vorte saisi correspond à  ${message}";
+
+}
